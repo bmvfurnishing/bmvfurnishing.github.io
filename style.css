@@ -90,20 +90,26 @@ button {
 
 
 .brand-logo {
-    width: 42px;
-    height: 42px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    display: grid;
-    place-items: center;
+    background: transparent !important;
+    border-radius: 0 !important;
+    color: transparent !important;
+}
 
-    /* border-radius: 50%;
+.brand-logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    display: block;
+}
 
-    background: var(--dark);
-    color: white;
-
-    font-family: "Playfair Display", serif;
-    font-size: 25px;
-    font-weight: 700; */
+.brand-logo span {
+    display: none !important;
 }
 
 
